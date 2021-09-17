@@ -1,0 +1,83 @@
+body{
+    background-color: #F8F8F8;
+    text-align: center;
+    margin: 0;
+}
+.top{
+    
+    background-color: #72a4ccb9;
+    padding: 5px;
+    color: #1E3163;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#ppic{
+    height:200px;
+    width: 195px;
+    margin-top: 40px;
+    border: 1px solid #0a4447;
+    border-radius: 50%;
+}
+.heading{
+    margin-top: 10px;
+    font-size: 60px;
+}
+.sub{
+    font-size: 30px;
+    
+   
+}
+.mid{
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.sub_head{
+   
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.mid2{
+    margin-bottom: 50px;
+}
+.skill_table{
+   border-collapse: collapse;
+}
+.mid2 table{
+    text-align: left;
+    margin: 10px auto;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.mid2 td{
+    padding: 5px;
+    padding-left: 20px;
+}
+.links{
+    margin: 25px auto;
+}
+.links img:hover{
+    height: 65px;
+    transition: 0.5s;
+}
+.hobby td{
+ font-size: 30px;
+}
+.bottom{
+    background-color: #1E3163;
+    color: #F8F8F8;
+    padding: 15px;
+    font-size: 20px;
+   margin-top: 50px;  
+}
+#mail_link{
+    color: #F8F8F8;
+    text-decoration: none;
+}
+#mail_link:hover{
+    color: white;
+    text-decoration: underline;
+    font-size: 22px;
+}
