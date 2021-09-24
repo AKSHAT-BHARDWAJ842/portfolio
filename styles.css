@@ -2,75 +2,111 @@ body{
     background-color: #F8F8F8;
     text-align: center;
     margin: 0;
+    font-size: 25px;
 }
+
 .top{
-    
-    background-color: #72a4ccb9;
-    padding: 5px;
-    color: #1E3163;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+
+    background-image: -webkit-linear-gradient(-55deg,rgb(156, 91, 199) 30% ,#F8F8F8 30%);
+    padding: 5px 0 20px;
+    overflow-wrap:break-word;
 }
 #ppic{
-    height:200px;
-    width: 195px;
-    margin-top: 40px;
-    border: 1px solid #0a4447;
+    height:300px;
+    width: 295px;
+    margin: 40px 20px 20px 120px;
+    border: 8px solid #F8F8F8;
     border-radius: 50%;
+    float: left;
 }
+.toptext{
+    display: inline-block;
+    /* width: 40%; */
+    margin: 100px 0px 30px ;
+    font-family:cursive ;
+    color: #553897;
+    
+}
+
 .heading{
-    margin-top: 10px;
-    font-size: 60px;
+    
+    margin: 10px 5px 10px;
+    font-size: 80px;
 }
 .sub{
-    font-size: 30px;
-    
-   
+    font-size: 25px; 
 }
 .mid{
     text-align: left;
-    font-size: 20px;
-    margin-bottom: 50px;
+    /* font-size: 20px; */
+    
+    margin: 50px 10px ;
 }
 .sub_head{
    
     text-align: center;
-    font-size: 30px;
-    text-decoration: underline;
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #553897;
+    /* text-decoration: underline; */
 }
 .mid2{
     margin-bottom: 50px;
 }
+.skills{
+    padding: 15px;
+    background-color: rgba(142, 54, 201, 0.3);
+}
 .skill_table{
-   border-collapse: collapse;
+   /* border-collapse: collapse; */
+   /* background-color: rgba(116, 55, 156, 0.4); */
+   border-radius: 30px;
+}
+.skill_table img {
+    background-color: rgba(116, 55, 156, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+}
+.web{
+    background-color: rgba(116, 55, 156, 0.5);
+    border-radius: 20px;
+    margin: 0;
+    padding: 5px;
+    justify-content: center;
+}
+.web img{
+    background-color:transparent;
+    padding: 2px;
 }
 .mid2 table{
-    text-align: left;
+   
     margin: 10px auto;
     font-size: 20px;
     padding: 10px;
-
 }
 .mid2 td{
     padding: 5px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
-.links{
-    margin: 25px auto;
-}
-.links img:hover{
-    height: 65px;
-    transition: 0.5s;
+#jv{
+    margin: 2px auto;
 }
 .hobby td{
  font-size: 30px;
+ text-align: center;
+ padding: 10px 50px;
 }
 .bottom{
-    background-color: #1E3163;
+    background-color: #6742bd;
     color: #F8F8F8;
     padding: 15px;
     font-size: 20px;
    margin-top: 50px;  
+   text-align: left;
+}
+.contact{
+    display: inline-block;
 }
 #mail_link{
     color: #F8F8F8;
@@ -81,3 +117,20 @@ body{
     text-decoration: underline;
     font-size: 22px;
 }
+.links{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    
+}
+.links td{
+    padding: 10px;
+}
+.links img:hover{
+    height: 65px;
+    transition: 0.5s;
+}
+.links img{
+    filter: invert();
+}
+
